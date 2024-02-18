@@ -1,0 +1,19 @@
+form{
+    width: 300px;
+    background-color: rgb(32, 214, 105);
+    /*text algin: center;*/
+    margin: 0 auto;
+    border-radius: 5px;
+    /* border-radius: thiết lập độ cong của từng góc */
+    box-shadow: 10px 10px 20px yellow;
+
+    padding: 30px 30px;
+    padding-right: 0px;
+}
+
+
+.text{
+    font-variant: small-caps;
+    font-weight: bold;
+    /*  font-weight giúp bạn xác định độ đậm của chữ cái xuất hiện trong phần tử. */
+}

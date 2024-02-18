@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/action_page.php">
+        First name:<br>
+        <input type="text" name="firstname" value=""><br>
+        Last name:<br>
+        <input type="text" name="lastname" value=""><br><br>
+        <input type="submit" value="Submit">
+        <input type="reset" >
+      </form> 
+      <input type="button" onclick="alert('Hello World!')" value="Click Me!"> 
+      <!--
+======================================================================================================================================================
+         Thuộc tính "onclick" trong HTML được sử dụng để xác định một hàm JavaScript
+        sẽ được thực thi khi một nút hoặc phần tử có thể bấm được được bấm. Thuộc tính
+        này có thể được thêm vào các phần tử như <button>, <a>, hoặc <p> và giá trị 
+        của nó là tên của hàm sẽ được gọi.  
+        VD:
+            <button onclick="alert('Hello World!')">Bấm vào tôi</button>
+        Trong ví dụ trên, khi người dùng bấm vào nút, sẽ xuất hiện một hộp thông báo với nội dung là “Hello World!”.
+        Điều này có thể được sử dụng để xử lý các sự kiện, thực hiện các hành động, hoặc thay đổi các thuộc tính của một phần tử HTML.
+        Để sử dụng tốt hơn, bạn có thể sử dụng javascript để đặt hàm vào thuộc tính onclick, và sử dụng các hàm javascript để xử lý sự kiện.
+===============================================================================================================================================
+
+===============================================================
+        Input dạng hidden                                     =
+<input type="hidden" name="" value="" size="30" />            =
+-------------------------------------------------             =
+Dạng này sẽ không hiển thì ra trình duyệt.                    =
+Được sử dụng khi không muốn dữ liệu bị thay đổi.              =
+===============================================================
+
+===================================================================
+=           * Input dạng checkbox - sử dụng disabled              =
+= <input type="checkbox" name="" value="" disabled="disabled" />  =
+= <input type="checkbox" name="" value="" />                      =
+= ---------------------------------------------                   =
+= Dạng này không cho click hay tác động tới input.                =
+= Được sử dụng khi không muốn dữ liệu bị thay đổi.                =
+===================================================================
+
+=========================================================================================================
+=          * Input dạng radio - sử dụng checked                                                          =
+= <input type="radio" name="checkbox" value="" checked="checked" />                                     =
+= <input type="radio" name="checkbox" value="" />                                                       =
+= ----------------------------------------                                                              =
+= Được sử dụng cho một chọn lựa mặc định.                                                               =
+=========================================================================================================
+
+=======================================================================
+            Input dạng radio - sử dụng disabled                       =
+<input type="radio" name="checkbox" value="" disabled="disabled" />   =
+<input type="radio" name="checkbox" value="" />                       =
+----------------------------------------------------                  =
+Dạng này không cho click hay tác động tới input.                      =
+Được sử dụng khi không muốn dữ liệu bị thay đổi.                      =
+=======================================================================
+        -->
+
+</body>
+</html>

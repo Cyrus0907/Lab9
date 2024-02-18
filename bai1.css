@@ -1,0 +1,25 @@
+form{
+    width: 300px;
+    background-color: rgb(32, 214, 105);
+    /*text algin: center;*/
+    margin: 0 auto;
+    border-radius: 5px;
+    box-shadow: 10px 10px 20px yellow;
+
+    padding: 30px 30px;
+    padding-right: 0px;
+}
+form label{
+    
+    font-weight: 900;
+}
+form input[type="submit"]{
+    background-color: aquamarine;
+    border: none;
+    box-shadow: 5px 5px 10px rgba(145, 50, 200, 0.701);
+    margin-bottom: 10px;
+}
+
+form input[type="submit"]:hover {
+    background-color: aqua;
+}

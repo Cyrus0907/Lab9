@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thiet ke form dang nhap</title>
+    <link rel="stylesheet" href="bai1.css">
+</head>
+<body>
+    <form action="" method="get" enctype="multipart/form-data">
+        <!-- Form ở đây là một dạng biểu mẫu có tác dụng thu thập thông tin từ người dùng.
+             -Các thuộc tính nằm trong thẻ mở của form:
+
+                action: Đường dẫn đến một trang xử lý dữ liệu sau khi người dùng ấn nút gửi dữ liệu.
+                method: Phương thức gửi dữ liệu(get,post).
+                name: Tên của form.
+                enctype: Chỉ định cụ thể dạng dữ liệu gì trước khi gửi lên máy chủ(application/ x-www-form-urlencoded,multipart/form-data,text/plain).
+            -->
+        <div class=”form-group”>
+            <label for="">User name:</label> <br>
+            <input type="text" name="username" class="form-control" value="Nguyen"> <br>
+        </div>
+
+        <div class=”form-group”>
+            <label for="" >Password:</label> <br>
+            <input type="password" name="mk" > <br>
+        </div>
+
+        <div class=”form-group”>
+            <label for="checkbox" >Remember me?</label>
+            <input type="checkbox"  id="checkbox">
+        </div>
+
+        <div class=”form-group”>
+            <input type="submit" value="Login">
+        </div>
+    </form>
+</body>
+</html>
+<!-- <input type=”text”> xác định trường nhập văn bản một dòng:
+
+     <input type="password"> xác định một trường nhập mật khẩu
+
+     <input type="submit"> xác định một nút để gửi đi dữ liệu form tới bộ xử lý form.
+     -Nếu bỏ qua thuộc tính value của nút submit thì nó sẽ nhận một giá trị mặc định, tùy trình duyệt.
+
+     <input type="reset"> xác định một nút để reset(đặt lại) mọi giá trị của form về giá trị mặc định.
+
+     <input type="radio"> xác định một nút radio (nút tròn).
+    -Nút radio cho phép người dùng lựa chọn một giá trị duy nhất trong danh sách cách lựa chọn giới hạn.
+
+    <input type="checkbox"> xác định một checkbox (hộp kiểm).
+    -Checkbox cho phép người dùng lựa chọn tùy ý trong danh sách lựa chọn (không chọn, hoặc chọn nhiều đều được)
+
+    <input type="button"> xác định một button(nút có thể bấm)
+
+    <input type=”date”> được sử dụng cho trường nhập chứa ngày.
+
+    Tùy trình duyệt hỗ trợ, một bảng chọn ngày sẽ được hiển thị trong trường nhập
+
+    <input type="file"> xác định một trường để chọn tệp từ máy tính và một nút "Browse" để duyệt và tải tệp lên.
+
+    <input type="number"> xác định một trường nhập số.
+
+    Những cách để hạn chế input:
+    1.readonly: Chỉ ra trường input này chỉ có thể đọc (không thể thay đổi)
+    2.value:Chỉ ra giá trị mặc định của một thẻ input
+    3.step:Chỉ ra khoảng cách giữa các số
+
+    Thuộc tính HTML 'class' được sử dụng để xác định các style giống nhau cho phần tử có cùng tên class.
+    Nghĩa là mọi phần tử có cùng tên class sẽ có chung định dạng và style.
+
+    Tag <label> định nghĩa nhãn cho thành phần <input />.
+    
+    
+ -->
